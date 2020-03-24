@@ -40,7 +40,7 @@ AM_CONDITIONAL(DEBUG, test x"$debug" = x"true")
 # Add a option to force static link the target.
 AC_ARG_ENABLE([static],
     [  --enable-static         build with static linking],
-    [LDFLAGS='-static'])
+    [LDFLAGS='-static -s'])
 
 AM_CONDITIONAL(STATIC, test x"$static" = x"true")
 
