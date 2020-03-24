@@ -28,10 +28,11 @@ Install
 
 Usage
 -----
-
-* Linux / Unix
+	
 Run `sudo dns-ecs-forcer -p 1053 -s 8.8.8.8 -e 202.96.134.33 -v` on your local machine.
+
 DNS-ECS-Forcer creates a UDP DNS Server at `0.0.0.0:1053`.
+
 Note: The upsteam dns server must support ECS.
 
 Test if it works correctly:
@@ -96,7 +97,7 @@ Online help: <https://github.com/rampageX/DEF>
 License
 -------
 
-Copyright (C) 2015 clowwindy,aa65535
+Copyright (C) 2015 clowwindy, aa65535
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
