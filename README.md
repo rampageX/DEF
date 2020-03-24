@@ -30,7 +30,8 @@ Usage
 -----
 
 * Linux / Unix
-    Run `sudo dns-ecs-forcer -p 1053 -s 8.8.8.8 -e 202.96.134.33 -v` on your local machine. DNS-ECS-Forcer creates a UDP DNS Server at `0.0.0.0:1053`. Note: The upsteam dns server must support ECS.
+Run `sudo dns-ecs-forcer -p 1053 -s 8.8.8.8 -e 202.96.134.33 -v` on your local machine.
+DNS-ECS-Forcer creates a UDP DNS Server at `0.0.0.0:1053`. Note: The upsteam dns server must support ECS.
 
 Test if it works correctly:
 
