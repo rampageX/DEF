@@ -1,7 +1,7 @@
 DNS-ECS-Forcer
 ========
 
-Add user defined ECS to dns request.
+Add user defined ECS to dns request. Codes ripped from [aa65535/ChinaDNS](https://github.com/aa65535/ChinaDNS)
 
 Install
 -------
@@ -21,7 +21,7 @@ Install
       `~/WRT54GL-US_v4.30.11_11/tools/` to `/opt`, then
 
             export PATH=/opt/brcm/hndtools-mipsel-uclibc/bin/:/opt/brcm/hndtools-mipsel-linux/bin/:$PATH
-            git clone https://github.com/rampageX/dns-ecs-forcer.git
+            git clone https://github.com/rampageX/DEF.git
             cd dns-ecs-forcer
             ./autogen.sh && ./configure --host=mipsel-linux --enable-static && make
 
@@ -88,13 +88,13 @@ Forward DNS requests.
   -h                    show this help message and exit
   -V                    print version and exit
 
-Online help: <https://github.com/rampageX/dns-ecs-forcer>
+Online help: <https://github.com/rampageX/DEF>
 ```
 
 License
 -------
 
-Copyright (C) 2015 clowwindy
+Copyright (C) 2015 clowwindy,aa65535
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -108,10 +108,4 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-Bugs and Issues
-----------------
-Please visit [Issue Tracker]
-
-Mailing list: http://groups.google.com/group/shadowsocks
 
